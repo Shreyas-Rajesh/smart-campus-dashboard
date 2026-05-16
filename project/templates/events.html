@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Events{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Events &amp; Activities</h2>
+  <span class="page-meta" id="currentMonth"></span>
+</div>
+
+<!-- Scrollable date strip -->
+<div class="date-strip-wrapper">
+  <div class="date-strip" id="dateStrip"></div>
+</div>
+
+<div id="eventsContainer" class="mt-4">
+  <div class="text-center py-5"><div class="loading-spin"></div></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/events.js') }}"></script>{% endblock %}
