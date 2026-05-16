@@ -167,7 +167,7 @@ project/
 ## 1️⃣ Clone The Repository
 
 ```bash
-git clone https://github.com/Shreyas-Rajesh/groupt_project_temp.git
+git clone https://github.com/Shreyas-Rajesh/smart-campus-dashboard.git
 ```
 
 ## 2️⃣ Install Dependencies
