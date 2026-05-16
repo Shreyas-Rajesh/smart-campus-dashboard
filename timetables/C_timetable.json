@@ -1,0 +1,10 @@
+{
+  "periods": ["9:00-9:50","9:50-10:40","10:50-11:40","11:40-12:30","12:30-1:20","1:20-2:10","2:10-3:00","3:10-4:00"],
+  "days": [
+    {"day":"MONDAY",    "slots":["23CSE201\nS301","23MAT201\nS301","23CSE202\nS301","--","Lunch Break","23CSE203\nS301","22ADM201\nS301","--"]},
+    {"day":"TUESDAY",   "slots":["23MAT201\nS301","23CSE203\nS301","--","Tutorial Hour","Lunch Break","23CSE202\nDB Lab","23CSE202\nDB Lab","--"]},
+    {"day":"WEDNESDAY", "slots":["23CSE202\nS301","23CSE201\nS301","22ADM201\nS301","23MAT201\nS301","Lunch Break","23CSE203\nS301","23CSE201\nCS Lab","23CSE201\nCS Lab"]},
+    {"day":"THURSDAY",  "slots":["23CSE203\nS301","--","23CSE201\nS301","23MAT201\nS301","Lunch Break","22ADM201\nS301","23CSE202\nS301","--"]},
+    {"day":"FRIDAY",    "slots":["23CSE201\nS301","23CSE203\nS301","23MAT201\nS301","22ADM201\nS301","Lunch Break","23CSE202\nS301","Counsellor Hour","--"]}
+  ]
+}

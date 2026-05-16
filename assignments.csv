@@ -1,0 +1,14 @@
+subject,code,title,due_date,status,section
+Discrete Mathematics,23MAT116,Linear Algebra Assignment,2026-05-20,Upcoming,A
+Object Oriented Programming,23CSE111,OOP Project Submission,2026-05-22,Upcoming,A
+User Interface Design,23CSE113,UI Prototype Design,2026-05-25,Upcoming,A
+Data Structures,23CSE112,Stack Implementation Lab,2026-05-10,Finished,A
+Modern Physics,23PHY115,Lab Report,2026-05-18,Upcoming,B
+Linear Algebra,23MAT117,Matrix Operations,2026-05-22,Upcoming,B
+Modern Physics,23PHY115,Quantum Mechanics Quiz,2026-05-12,Finished,B
+Database Systems,23CSE202,ER Diagram Project,2026-05-20,Upcoming,C
+Algorithms,23CSE201,Sorting Algorithm Analysis,2026-05-24,Upcoming,C
+Database Systems,23CSE202,SQL Lab Exercises,2026-05-08,Finished,C
+Software Engineering,23CSE302,SDLC Documentation,2026-05-21,Upcoming,D
+Computer Architecture,23CSE301,Pipeline Design,2026-05-26,Upcoming,D
+Management Studies,22ADM301,Case Study Report,2026-05-15,Finished,D

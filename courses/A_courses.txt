@@ -1,0 +1,7 @@
+23MAT116|Discrete Mathematics|Sets and Logic,Propositional Logic,Graph Theory,Combinatorics,Boolean Algebra,Trees and Spanning Trees
+23PHY115|Modern Physics|Wave-Particle Duality,Quantum Mechanics,Schrodinger Equation,Nuclear Physics,Special Relativity,Photoelectric Effect
+23CSE111|Object Oriented Programming|Classes and Objects,Constructors,Inheritance,Polymorphism,Encapsulation,File Handling,Exception Handling
+23CSE113|User Interface Design|Design Principles,Wireframing,Prototyping,Figma Basics,Color Theory,Typography,Usability Testing
+22ADM111|Glimpses of Glorious India|Indian History,Constitutional Values,Social Development,Cultural Heritage,Freedom Struggle
+23MAT117|Linear Algebra|Matrices and Determinants,Eigenvalues and Eigenvectors,Vector Spaces,Linear Transformations,Inner Product Spaces
+23MEE115|Manufacturing Practice|Workshop Safety,Lathe Operations,Welding Techniques,Casting,CNC Basics,Fitting and Joining

@@ -1,0 +1,10 @@
+{
+  "periods": ["9:00-9:50","9:50-10:40","10:50-11:40","11:40-12:30","12:30-1:20","1:20-2:10","2:10-3:00","3:10-4:00","4:00-4:50"],
+  "days": [
+    {"day":"MONDAY",    "slots":["--","--","--","Tutorial Hour\n-","Lunch Break","23MAT116\nDiscrete Mathematics\nA207A","23MAT116\nDiscrete Mathematics\nA207A","23MAT117\nS107","--"]},
+    {"day":"TUESDAY",   "slots":["23MAT116\nS107","23PHY115\nS107","23CSE111\nS107","Tutorial Hour\nS107","Lunch Break","23CSE113\nUID\nFF Lab","23CSE113\nUID\nFF Lab","--","--"]},
+    {"day":"WEDNESDAY", "slots":["23CSE113\nS107","23MAT116\nS107","22ADM111\nS107","22ADM111\nS309A","Lunch Break","23PHY115\nS107","23MAT117\nS107","23CSE111\nOOP\nFF Lab","23CSE111\nOOP\nFF Lab"]},
+    {"day":"THURSDAY",  "slots":["23PHY115\nS107","Soft Skills\nN107","22ADM111\nA201B","--","Lunch Break","23CSE111\nS107","23MAT117\nS107","23MEE115\nMfg Lab","23MEE115\nMfg Lab"]},
+    {"day":"FRIDAY",    "slots":["23MAT116\nA201A","23CSE113\nA201B","23MAT117\nLinear Algebra\nA207A","23MAT117\nLinear Algebra\nA207A","Lunch Break","23CSE111\nS107","Counsellor Hour\nS107","--","--"]}
+  ]
+}

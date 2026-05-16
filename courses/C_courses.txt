@@ -1,0 +1,5 @@
+23CSE201|Algorithm Design|Divide and Conquer,Dynamic Programming,Greedy Algorithms,Graph Algorithms,NP Completeness
+23MAT201|Probability and Statistics|Random Variables,Probability Distributions,Hypothesis Testing,Regression Analysis,Bayesian Inference
+23CSE202|Database Systems|ER Modeling,Relational Algebra,SQL,Normalization,Transactions,Indexing and Hashing
+23CSE203|Operating Systems|Process Management,CPU Scheduling,Memory Management,File Systems,Deadlocks,I/O Management
+22ADM201|Professional Ethics|Engineering Ethics,Intellectual Property Rights,Environmental Ethics,Social Responsibility

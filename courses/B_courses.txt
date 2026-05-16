@@ -1,0 +1,6 @@
+23MAT116|Discrete Mathematics|Sets and Logic,Graph Theory,Combinatorics,Boolean Algebra,Recurrence Relations
+23PHY115|Modern Physics|Wave-Particle Duality,Quantum Mechanics,Nuclear Physics,Relativity,Laser Physics
+23CSE112|Data Structures|Arrays,Linked Lists,Stacks,Queues,Trees,Binary Search Trees,Sorting Algorithms,Hashing
+23CSE114|Computer Networks|OSI Model,TCP/IP Stack,Network Protocols,Routing Algorithms,Subnetting,Application Layer
+22ADM111|Glimpses of Glorious India|Indian History,Constitutional Values,Social Development,Cultural Heritage
+23MAT117|Linear Algebra|Matrices,Determinants,Eigenvalues,Vector Spaces,Linear Transformations

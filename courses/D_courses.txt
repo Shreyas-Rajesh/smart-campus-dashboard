@@ -1,0 +1,5 @@
+23CSE301|Computer Architecture|CPU Design,Instruction Set Architecture,Cache Memory,Pipelining,I/O Systems,Performance Metrics
+23CSE302|Software Engineering|SDLC Models,Agile Methodology,Software Testing,UML Diagrams,Project Management,Risk Analysis
+23MAT301|Numerical Methods|Errors and Approximation,Interpolation,Numerical Integration,Solving ODEs,Linear Systems
+23CSE303|Compiler Design|Lexical Analysis,Parsing Techniques,Semantic Analysis,Intermediate Code,Code Generation,Optimization
+22ADM301|Management Studies|Principles of Management,Leadership Styles,Organizational Behavior,Decision Making
