@@ -1,0 +1,21 @@
+.assign-card {
+  background: #161b22; border: 1px solid #21262d;
+  border-left: 4px solid #f85149; border-radius: 10px;
+  padding: 16px 20px; margin-bottom: 12px;
+  display: flex; align-items: center; transition: background 0.2s;
+}
+.assign-card:hover { background: #1c2128; }
+.assign-card.finished { border-left-color: #3fb950; }
+
+.assign-num { color: #f85149; font-size: 1.05rem; font-weight: 700; min-width: 28px; }
+.assign-card.finished .assign-num { color: #3fb950; }
+
+.assign-info  { flex: 1; padding: 0 16px; }
+.assign-title { font-weight: 700; font-size: 0.92rem; color: #e6edf3; }
+.assign-sub   { font-size: 0.72rem; color: #8b949e; margin-top: 3px; }
+
+.assign-right { text-align: right; }
+.assign-due   { font-size: 0.72rem; color: #e3b341; background: #2d2211; padding: 3px 10px; border-radius: 6px; font-weight: 600; display: inline-block; }
+.assign-status { font-size: 0.7rem; margin-top: 5px; }
+.assign-status.upcoming { color: #f85149; }
+.assign-status.finished { color: #3fb950; }
