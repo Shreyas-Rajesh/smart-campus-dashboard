@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Contact &amp; Feedback</h2>
+  <span class="page-meta">Submit Suggestions</span>
+</div>
+
+<div class="row g-4">
+  <!-- LEFT: Feedback form -->
+  <div class="col-md-7">
+    <div class="contact-card">
+      <h5 class="section-label">Send Feedback / Suggestion</h5>
+      <div class="row g-3 mt-1">
+        <div class="col-md-6">
+          <label class="cf-label">YOUR NAME</label>
+          <input type="text" id="cName" class="cf-input" value="{{ session.get('name','') }}" placeholder="Your name">
+        </div>
+        <div class="col-md-6">
+          <label class="cf-label">EMAIL</label>
+          <input type="email" id="cEmail" class="cf-input" placeholder="your@email.com">
+        </div>
+        <div class="col-12">
+          <label class="cf-label">SUBJECT</label>
+          <input type="text" id="cSubject" class="cf-input" placeholder="Brief subject of your message">
+        </div>
+        <div class="col-12">
+          <label class="cf-label">MESSAGE</label>
+          <textarea id="cMessage" class="cf-input cf-textarea" rows="5" placeholder="Write your feedback, suggestion, or complaint here..."></textarea>
+        </div>
+        <div class="col-12">
+          <div id="contactMsg" class="contact-feedback-msg" style="display:none;"></div>
+          <button class="submit-btn" onclick="submitContact()">Submit Feedback →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Info cards -->
+  <div class="col-md-5">
+    <h5 class="section-label mb-3">Contact Information</h5>
+    <div class="info-card mb-3">
+      <h6>Academic Section</h6>
+      <p><img src="/static/images/envelope-svgrepo-com.svg" alt=""> academic@smartcampus.edu.in</p>
+      <p><i class="bi bi-telephone"></i> +91 484 123 4567</p>
+      <p><i class="bi bi-clock"></i> Mon–Fri: 9:00 AM – 4:00 PM</p>
+    </div>
+    <div class="info-card mb-3">
+      <h6>Student Welfare Office</h6>
+      <p><img src="/static/images/envelope-svgrepo-com.svg" alt=""> welfare@smartcampus.edu.in</p>
+      <p><i class="bi bi-telephone"></i> +91 484 123 4568</p>
+      <p><i class="bi bi-geo-alt"></i> Admin Block, Room 104</p>
+    </div>
+    <div class="info-card">
+      <h6>Technical Support (Portal)</h6>
+      <p><img src="/static/images/envelope-svgrepo-com.svg" alt=""> support@smartcampus.edu.in</p>
+      <p><i class="bi bi-clock"></i> Mon–Sat: 8:00 AM – 6:00 PM</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/contact.js') }}"></script>{% endblock %}

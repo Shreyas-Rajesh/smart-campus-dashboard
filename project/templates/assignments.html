@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Assignments{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/assignments.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Assignments</h2>
+</div>
+
+<div id="assignmentsList">
+  <div class="text-center py-5"><div class="loading-spin"></div></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/assignments.js') }}"></script>{% endblock %}

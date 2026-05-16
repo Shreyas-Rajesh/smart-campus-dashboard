@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">About Smart Campus</h2>
+</div>
+
+<div class="row g-4">
+  <!-- LEFT: Project info -->
+  <div class="col-md-8">
+    <div class="about-card mb-3">
+      <h5>Project Description</h5>
+      <p>Smart Campus Study Dashboard is a web-based academic management platform designed to centralise all academic information for college students. It provides a unified interface for managing courses, timetables, assignments, notices, and events.</p>
+    </div>
+    <div class="about-card mb-3">
+      <h5>Objective</h5>
+      <p>To create a beginner-friendly, fully functional web application using Flask and Bootstrap that simulates a smart academic dashboard for students and administrators, with all data stored in simple CSV and text files.</p>
+    </div>
+    <div class="about-card mb-3">
+      <h5>Features</h5>
+      <ul>
+        <li>Student and Admin role-based login</li>
+        <li>Section-based personalised dashboard</li>
+        <li>Course syllabus viewer with interactive panel</li>
+        <li>Weekly timetable rendered from JSON data</li>
+        <li>Assignment tracker with status badges</li>
+        <li>Digital notice board per section</li>
+        <li>Campus events listing with date strip</li>
+        <li>Feedback and contact form with CSV storage</li>
+      </ul>
+    </div>
+    <div class="about-card">
+      <h5>Technologies Used</h5>
+      <div class="tech-tags">
+        <span class="tech-tag">Python 3</span>
+        <span class="tech-tag">Flask</span>
+        <span class="tech-tag">HTML5</span>
+        <span class="tech-tag">CSS3</span>
+        <span class="tech-tag">JavaScript (ES5)</span>
+        <span class="tech-tag">Bootstrap 5</span>
+        <span class="tech-tag">CSV Storage</span>
+        <span class="tech-tag">JSON</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Developers -->
+<!-- RIGHT: Developers -->
+<div class="col-md-4">
+  <h5 class="section-label mb-3">Developers</h5>
+
+  <div class="dev-card mb-3">
+    <div class="dev-avatar">A</div>
+    <div>
+      <div class="dev-name">Anjana R</div>
+      <div class="dev-role">Frontend Developer</div>
+      <a href="https://sh4ggyd4wg.github.io/myportfolio/" target="_blank" class="dev-link">
+        portfolio →
+      </a>
+    </div>
+  </div>
+
+  <div class="dev-card mb-3">
+    <div class="dev-avatar">M</div>
+    <div>
+      <div class="dev-name">Meenakshi NM</div>
+      <div class="dev-role">Backend Developer</div>
+      <a href="https://meenakshi-nsk.github.io/portfolio/" target="_blank" class="dev-link">
+        portfolio →
+      </a>
+    </div>
+  </div>
+
+  <div class="dev-card mb-3">
+    <div class="dev-avatar">N</div>
+    <div>
+      <div class="dev-name">Nayantheerth Akhil</div>
+      <div class="dev-role">Developer</div>
+      <a href="https://nayantheerth.github.io/" target="_blank" class="dev-link">
+        portfolio →
+      </a>
+    </div>
+  </div>
+
+  <div class="dev-card mb-3">
+    <div class="dev-avatar">S</div>
+    <div>
+      <div class="dev-name">Shreyas Rajesh Nair</div>
+      <div class="dev-role">Full Stack Developer</div>
+      <a href="https://y0dam4n.github.io/" target="_blank" class="dev-link">
+        portfolio →
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
