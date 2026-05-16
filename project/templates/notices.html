@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Notices{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/notices.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Notices &amp; Announcements</h2>
+  <span class="page-meta">Digital Notice Board</span>
+</div>
+
+<div id="noticesContainer">
+  <div class="text-center py-5"><div class="loading-spin"></div></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/notices.js') }}"></script>{% endblock %}

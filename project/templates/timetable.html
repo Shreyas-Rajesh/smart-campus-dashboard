@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Timetable{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Weekly Timetable</h2>
+  <span class="page-meta">{{ session.get('section','') }} CSE · Year 1</span>
+</div>
+
+<div class="timetable-wrapper">
+  <div id="timetableContainer">
+    <div class="text-center py-5"><div class="loading-spin"></div></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/timetable.js') }}"></script>{% endblock %}
