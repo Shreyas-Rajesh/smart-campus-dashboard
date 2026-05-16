@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">Dashboard</h2>
+  <span class="page-meta" id="roleBadge"></span>
+</div>
+
+<!-- Greeting Banner -->
+<div class="greeting-banner">
+  <div>
+    <div class="greeting-label" id="greetingText">GOOD MORNING</div>
+    <div class="greeting-name"  id="greetingName">Loading your dashboard...</div>
+  </div>
+  {% if session.get('role') != 'admin' %}
+  <div class="semester-badge">
+    <div class="sem-label">Current Semester</div>
+    <div class="sem-val" id="semVal">—</div>
+  </div>
+  {% endif %}
+</div>
+
+<!-- Stat Cards -->
+<div class="row g-3 mt-2">
+  <div class="col-md-3 col-6">
+    <div class="stat-card border-blue">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <div class="stat-card-label" id="card1Label">COURSES</div>
+        <img src="/static/images/folder-svgrepo-com.svg" class="stat-icon" alt="">
+      </div>
+      <div class="stat-card-val" id="courseCount">—</div>
+      <div class="stat-card-sub" id="card1Sub">This semester</div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="stat-card border-orange">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <div class="stat-card-label" id="card2Label">ASSIGNMENTS</div>
+        <img src="/static/images/target-hit-aim-svgrepo-com.svg" class="stat-icon" alt="">
+      </div>
+      <div class="stat-card-val" id="assignCount">—</div>
+      <div class="stat-card-sub orange-txt" id="card2Sub">Due soon</div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="stat-card border-green">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <div class="stat-card-label">NOTICES</div>
+        <img src="/static/images/megaphone-svgrepo-com.svg" class="stat-icon" alt="">
+      </div>
+      <div class="stat-card-val" id="noticeCount">—</div>
+      <div class="stat-card-sub">Active alerts</div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="stat-card border-red">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <div class="stat-card-label">EVENTS</div>
+        <img src="/static/images/calendar-svgrepo-com.svg" class="stat-icon" alt="">
+      </div>
+      <div class="stat-card-val" id="eventCount">—</div>
+      <div class="stat-card-sub">Upcoming</div>
+    </div>
+  </div>
+</div>
+
+<!-- Bottom Panels -->
+<div class="row g-3 mt-2">
+  {% if session.get('role') != 'admin' %}
+  <div class="col-md-6">
+    <div class="panel-box">
+      <div class="panel-head">
+        <span>Upcoming Deadlines</span>
+        <a href="/assignments" class="panel-link">All tasks →</a>
+      </div>
+      <div id="deadlinesList"><div class="loading-spin"></div></div>
+    </div>
+  </div>
+  {% endif %}
+  <div class="col-md-{% if session.get('role') == 'admin' %}12{% else %}6{% endif %}">
+    <div class="panel-box">
+      <div class="panel-head">
+        <span>Upcoming Events</span>
+        <a href="/events" class="panel-link">View all →</a>
+      </div>
+      <div id="eventsList"><div class="loading-spin"></div></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>{% endblock %}

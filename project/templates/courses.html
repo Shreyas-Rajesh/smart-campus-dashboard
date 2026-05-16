@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Courses{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{{ url_for('static', filename='css/courses.css') }}">{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2 class="page-title">My Courses</h2>
+  <span class="page-meta" id="courseMeta"></span>
+</div>
+
+<div class="row g-3" id="coursesGrid">
+  <div class="col-12 text-center py-5"><div class="loading-spin"></div></div>
+</div>
+
+<!-- Syllabus panel (hidden until a button is clicked) -->
+<div id="syllabusPanel" style="display:none;" class="syllabus-panel mt-4">
+  <h4 id="syllabusTitle">Syllabus</h4>
+  <ul id="syllabusList"></ul>
+</div>
+{% endblock %}
+
+{% block extra_js %}<script src="{{ url_for('static', filename='js/courses.js') }}"></script>{% endblock %}
