@@ -1,4 +1,4 @@
-// Build the scrollable date strip at the top
+
 function buildDateStrip() {
   var today    = new Date();
   var months   = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -20,7 +20,7 @@ function buildDateStrip() {
   strip.innerHTML = html;
 }
 
-// Load events from Flask and display as cards
+
 function loadEvents() {
   fetch('/api/events')
     .then(function(response) { return response.json(); })
