@@ -242,7 +242,7 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 # 🔗 Repository Link
 
-👉 https://github.com/Shreyas-Rajesh/groupt_project_temp
+👉 https://github.com/Shreyas-Rajesh/smart-campus-dashboard
 
 ---
 
