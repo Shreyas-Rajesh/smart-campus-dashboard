@@ -1,0 +1,35 @@
+.greeting-banner {
+  background: linear-gradient(135deg,#1c2333,#21262d);
+  border: 1px solid #30363d; border-radius: 12px;
+  padding: 22px 26px; display: flex; justify-content: space-between; align-items: center;
+}
+.greeting-label { font-size: 0.7rem; color: #58a6ff; letter-spacing: 2px; font-weight: 600; margin-bottom: 5px; }
+.greeting-name  { font-size: 1.15rem; font-weight: 600; color: #e6edf3; }
+
+.semester-badge { background: #0d1117; border: 1px solid #30363d; border-radius: 10px; padding: 10px 16px; text-align: center; }
+.sem-label { font-size: 0.62rem; color: #8b949e; }
+.sem-val   { font-size: 0.88rem; font-weight: 700; color: #e6edf3; }
+
+.stat-card { background: #161b22; border: 1px solid #21262d; border-top: 3px solid #30363d; border-radius: 12px; padding: 18px; transition: transform 0.2s; }
+.stat-card:hover { transform: translateY(-2px); }
+.stat-icon { width: 22px; height: 22px; opacity: 0.5; object-fit: contain; }
+.border-blue   { border-top-color: #1f6feb; }
+.border-orange { border-top-color: #e3b341; }
+.border-green  { border-top-color: #3fb950; }
+.border-red    { border-top-color: #f85149; }
+
+.stat-card-label { font-size: 0.62rem; color: #8b949e; letter-spacing: 1.5px; font-weight: 600; margin-bottom: 6px; }
+.stat-card-val   { font-size: 1.8rem; font-weight: 700; color: #e6edf3; margin-bottom: 3px; }
+.stat-card-sub   { font-size: 0.7rem; color: #8b949e; }
+.orange-txt      { color: #e3b341 !important; }
+
+.panel-box { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 16px 20px; min-height: 160px; }
+.panel-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 0.88rem; font-weight: 600; color: #e6edf3; }
+.panel-link { font-size: 0.73rem; color: #58a6ff; text-decoration: none; }
+.panel-link:hover { text-decoration: underline; }
+
+.deadline-item, .event-mini-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #21262d; font-size: 0.8rem; }
+.deadline-item:last-child, .event-mini-item:last-child { border-bottom: none; }
+.deadline-subject, .event-mini-name { color: #e6edf3; font-weight: 500; }
+.deadline-due   { color: #f85149; font-size: 0.72rem; }
+.event-mini-date { color: #58a6ff; font-size: 0.72rem; }

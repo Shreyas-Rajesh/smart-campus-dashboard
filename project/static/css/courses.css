@@ -1,0 +1,30 @@
+.course-card {
+  background: #161b22; border: 1px solid #21262d;
+  border-top: 3px solid #1f6feb; border-radius: 12px;
+  padding: 18px; height: 100%; transition: transform 0.2s;
+}
+.course-card:hover { transform: translateY(-3px); }
+
+.card-color-0 { border-top-color: #1f6feb; }
+.card-color-1 { border-top-color: #e3b341; }
+.card-color-2 { border-top-color: #3fb950; }
+.card-color-3 { border-top-color: #f85149; }
+.card-color-4 { border-top-color: #bc8cff; }
+.card-color-5 { border-top-color: #39d0d8; }
+
+.course-code { font-size: 0.68rem; color: #8b949e; font-weight: 600; letter-spacing: 1px; margin-bottom: 6px; }
+.course-name { font-size: 0.96rem; font-weight: 700; color: #e6edf3; margin-bottom: 16px; line-height: 1.35; }
+
+.view-syllabus-btn {
+  background: transparent; border: 1px solid #30363d; color: #58a6ff;
+  border-radius: 6px; padding: 6px 12px; font-size: 0.78rem;
+  cursor: pointer; transition: all 0.2s; width: 100%;
+}
+.view-syllabus-btn:hover { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+
+.syllabus-panel { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 24px; }
+.syllabus-panel h4 { color: #e6edf3; margin-bottom: 14px; font-size: 1.05rem; }
+.syllabus-panel ul { list-style: none; padding: 0; }
+.syllabus-panel ul li { padding: 8px 0; color: #8b949e; border-bottom: 1px solid #21262d; font-size: 0.86rem; }
+.syllabus-panel ul li::before { content: "•  "; color: #58a6ff; }
+.syllabus-panel ul li:last-child { border-bottom: none; }

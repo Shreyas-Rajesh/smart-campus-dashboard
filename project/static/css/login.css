@@ -1,0 +1,36 @@
+body { background: #0d1117; }
+
+.login-wrapper { display: flex; min-height: 100vh; }
+
+.login-left { flex: 1; background: #0d1117; display: flex; align-items: center; padding: 60px; }
+
+.brand-title  { font-size: 3.8rem; font-weight: 800; color: #e6edf3; line-height: 1.05; margin-bottom: 10px; }
+.brand-sub    { color: #7c3aed; font-size: 0.78rem; letter-spacing: 3px; font-weight: 600; margin-bottom: 18px; }
+.brand-desc   { color: #8b949e; font-size: 0.92rem; line-height: 1.6; max-width: 340px; margin-bottom: 36px; }
+
+.stats-row { display: flex; gap: 36px; }
+.stat-val  { font-size: 1.4rem; font-weight: 800; color: #7c3aed; }
+.stat-lbl  { font-size: 0.62rem; color: #8b949e; letter-spacing: 2px; font-weight: 600; }
+
+.login-right { width: 420px; background: #0d1117; display: flex; align-items: center; justify-content: center; padding: 40px 28px; border-left: 1px solid #21262d; }
+
+.login-card { background: #161b22; border: 1px solid #21262d; border-radius: 16px; padding: 34px 30px; width: 100%; }
+
+.welcome-label  { font-size: 0.68rem; color: #7c3aed; letter-spacing: 2px; font-weight: 600; margin-bottom: 4px; }
+.sign-in-title  { font-size: 1.75rem; font-weight: 800; color: #e6edf3; margin-bottom: 20px; }
+
+.role-toggle { display: flex; background: #0d1117; border-radius: 8px; padding: 3px; margin-bottom: 22px; border: 1px solid #21262d; }
+.role-btn { flex: 1; border: none; background: transparent; color: #8b949e; padding: 8px; border-radius: 6px; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-weight: 500; }
+.role-btn.active { background: #7c3aed; color: #fff; }
+
+.form-group-custom { margin-bottom: 14px; }
+.field-label { display: block; font-size: 0.63rem; color: #8b949e; letter-spacing: 1.5px; font-weight: 600; margin-bottom: 6px; }
+
+.input-field { width: 100%; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #e6edf3; padding: 10px 14px; font-size: 0.88rem; outline: none; transition: border-color 0.2s; }
+.input-field:focus { border-color: #7c3aed; }
+
+.field-error  { display: block; color: #f85149; font-size: 0.73rem; margin-top: 4px; }
+.server-error { background: #2d1b1b; color: #f85149; border: 1px solid #f8514950; border-radius: 8px; padding: 10px; font-size: 0.82rem; margin-bottom: 12px; text-align: center; }
+
+.signin-btn { width: 100%; background: linear-gradient(135deg,#7c3aed,#6d28d9); color: #fff; border: none; border-radius: 8px; padding: 12px; font-size: 0.98rem; font-weight: 600; cursor: pointer; transition: opacity 0.2s; margin-top: 6px; }
+.signin-btn:hover { opacity: 0.88; }

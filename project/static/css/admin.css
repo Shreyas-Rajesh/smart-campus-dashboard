@@ -1,0 +1,102 @@
+.admin-tabs .nav-pills .nav-link {
+  color: #8b949e;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.admin-tabs .nav-pills .nav-link.active {
+  background: #1f6feb;
+  color: #fff;
+}
+.admin-tabs .nav-pills .nav-link:hover:not(.active) {
+  background: #21262d;
+  color: #e6edf3;
+}
+
+.admin-input {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+  font-size: 0.85rem;
+}
+.admin-input:focus {
+  background: #0d1117;
+  border-color: #58a6ff;
+  color: #e6edf3;
+  box-shadow: none;
+}
+
+.form-label {
+  font-size: 0.75rem;
+  color: #8b949e;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.admin-notice-item, .admin-event-item {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.admin-item-content {
+  flex: 1;
+}
+
+.admin-item-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #e6edf3;
+  margin-bottom: 2px;
+}
+
+.admin-item-meta {
+  font-size: 0.7rem;
+  color: #8b949e;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #f85149;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: opacity 0.2s;
+}
+.delete-btn:hover {
+  opacity: 0.7;
+}
+
+.admin-table {
+  font-size: 0.8rem;
+  border: 1px solid #30363d;
+}
+.admin-table th {
+  background: #1c2128 !important;
+  color: #8b949e;
+  font-weight: 600;
+  border-bottom-color: #30363d;
+}
+.admin-table td {
+  color: #e6edf3;
+  border-bottom-color: #21262d;
+}
+
+.btn-primary {
+  background: #1f6feb;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px;
+}
+.btn-primary:hover {
+  background: #388bfd;
+}
