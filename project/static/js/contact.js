@@ -5,7 +5,7 @@ function submitContact() {
   var message = document.getElementById('cMessage').value.trim();
   var msgDiv  = document.getElementById('contactMsg');
 
-  // 1. Check for empty fields
+ 
   if (name === '' || email === '' || subject === '' || message === '') {
     msgDiv.style.display = 'block';
     msgDiv.className = 'contact-feedback-msg error';
@@ -13,7 +13,7 @@ function submitContact() {
     return;
   }
 
-  // 2. Simple Email Validation (check for @ and .)
+ 
   if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
     msgDiv.style.display = 'block';
     msgDiv.className = 'contact-feedback-msg error';
@@ -21,7 +21,7 @@ function submitContact() {
     return;
   }
 
-  // 3. Message Length Validation (minimum 10 characters)
+ 
   if (message.length < 10) {
     msgDiv.style.display = 'block';
     msgDiv.className = 'contact-feedback-msg error';
@@ -29,7 +29,7 @@ function submitContact() {
     return;
   }
 
-  // Send data to Flask as JSON
+  
   fetch('/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
